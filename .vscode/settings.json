@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/c77d55bc-4ccc-4da2-bfea-2bcddffef97b/resourceGroups/qr-code-generator/providers/Microsoft.Web/sites/ctcqrcode",
+    "appService.deploySubpath": "."
+}
