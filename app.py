@@ -1,3 +1,4 @@
+from distutils.log import debug
 from qrgen import qrgen
 from flask import *
 
@@ -27,7 +28,7 @@ def qr_download():
 #     filename=qrgen(url)
 
 #     return send_file(filename,as_attachment=True)
-    # return render_template("index.html")
+#     # return render_template("index.html")
 
 if __name__=="__main__":
-    app.run(host="0.0.0.0")
+    app.run(debug=True)
